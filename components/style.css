@@ -45,9 +45,16 @@ a:hover{
 
 .content-top{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+}
+
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .content-top h3 {
@@ -62,10 +69,9 @@ a:hover{
 
 .btn{
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     transition: transform 0.3s ease;
+    border-radius: 360px;
 }
 
 .btn img{
@@ -75,4 +81,23 @@ a:hover{
 
 .btn:hover{
     transform: rotate(90deg);
+}
+
+.input{
+    width:650px;
+}
+
+#input-search{
+    width: 650px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.head-section{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
